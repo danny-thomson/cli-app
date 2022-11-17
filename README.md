@@ -17,7 +17,7 @@ An cli application created using cobra package.
 
 ### SEE ALSO
 
-* [tool cat](tool_cat.md)	 - Read file
-* [tool touch](tool_touch.md)	 - Create new file
+* [tool cat](docs/tool_cat.md)	 - Read file
+* [tool touch](docs/tool_touch.md)	 - Create new file
 
 
