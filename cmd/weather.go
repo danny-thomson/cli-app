@@ -13,7 +13,7 @@ import (
 	"github.com/spf13/cobra"
 )
 
-var Version = "0.0.1"
+var Version = "0.0.3"
 
 // weatherCmd represents the weather command
 var weatherCmd = &cobra.Command{
