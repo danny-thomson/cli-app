@@ -1,25 +1,23 @@
 # cli-app
 
-## tool cat
+## tool
 
-Read file
+An cli application
 
 ### Synopsis
 
-Read a file by using the cat command.Ex: tool cat <filename>
-
-```
-tool cat [flags]
-```
+An cli application created using cobra package.
 
 ### Options
 
 ```
-  -f, --file string   Read a file
-  -h, --help          help for cat
+  -h, --help     help for tool
+  -t, --toggle   Help message for toggle
 ```
 
 ### SEE ALSO
 
-* [tool](tool.md)	 - An cli application
+* [tool cat](tool_cat.md)	 - Read file
+* [tool touch](tool_touch.md)	 - Create new file
+
 
