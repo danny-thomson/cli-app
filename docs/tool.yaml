@@ -1,0 +1,15 @@
+name: tool
+synopsis: An cli application
+description: An cli application created using cobra package.
+options:
+    - name: help
+      shorthand: h
+      default_value: "false"
+      usage: help for tool
+    - name: toggle
+      shorthand: t
+      default_value: "false"
+      usage: Help message for toggle
+see_also:
+    - tool cat - Read file
+    - tool touch - Create new file

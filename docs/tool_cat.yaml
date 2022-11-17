@@ -1,0 +1,14 @@
+name: tool cat
+synopsis: Read file
+description: 'Read a file by using the cat command.Ex: tool cat <filename>'
+usage: tool cat [flags]
+options:
+    - name: file
+      shorthand: f
+      usage: Read a file
+    - name: help
+      shorthand: h
+      default_value: "false"
+      usage: help for cat
+see_also:
+    - tool - An cli application

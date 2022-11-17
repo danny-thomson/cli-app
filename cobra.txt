@@ -1,0 +1,8 @@
+go install github.com/spf13/cobra-cli@latest
+cobra-cli init
+cobra-cli init --license apache(to create a apache license)
+cobra-cli init --viper
+cobra-cli add <fileName>
+
+
+github personal token: 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

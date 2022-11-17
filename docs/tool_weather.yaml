@@ -1,0 +1,15 @@
+name: tool weather
+synopsis: Get current weather data
+description: |
+    Get the current weather data by providing the name of the city
+usage: tool weather [flags] <argument>
+options:
+    - name: city
+      shorthand: c
+      usage: Name of the city
+    - name: help
+      shorthand: h
+      default_value: "false"
+      usage: help for weather
+see_also:
+    - tool - An cli application

@@ -1,0 +1,13 @@
+name: tool touch
+synopsis: Create new file
+description: |-
+    Create a new file using the touch command. The default file name is text.txt.
+    	Ex: tool touch <filename>
+usage: tool touch [flags]
+options:
+    - name: help
+      shorthand: h
+      default_value: "false"
+      usage: help for touch
+see_also:
+    - tool - An cli application
